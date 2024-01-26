@@ -47,7 +47,7 @@ jobs:
         with:
           images: |
             sattorovdevops/nearby_mosque
-#            ghcr.io/${{ github.repository }}
+            ghcr.io/${{ github.repository }}
 
 
       - name: Build and push Docker images
